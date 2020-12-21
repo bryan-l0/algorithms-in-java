@@ -1,1 +1,2 @@
 Simulates percolation. Outputs mean, standard deviation, and 95% confidence, for percolation of a n x n grid with m passes.
+PercolationStats takes 2 inputs of n then m.
