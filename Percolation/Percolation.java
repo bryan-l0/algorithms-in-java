@@ -31,10 +31,8 @@ public class Percolation {
                 }
             }
             catch (IndexOutOfBoundsException e) {
-                if (arraySize.find(arrayDimension * (row - 1) + col) == arraySize.find(0)) {
-                    arraySize.union(arrayDimension * (row - 1) + col,
-                                    arrayDimension * arrayDimension + 1);
-                }
+                arraySize.union(arrayDimension * (row - 1) + col,
+                                arrayDimension * arrayDimension + 1);
             }
             try {
                 if (siteOpen[row - 2][col - 1]) {
