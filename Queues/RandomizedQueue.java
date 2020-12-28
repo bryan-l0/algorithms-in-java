@@ -120,5 +120,6 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
     }
     
     public static void main(String[] args) {
+        
     }
 }
