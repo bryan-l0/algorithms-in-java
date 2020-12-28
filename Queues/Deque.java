@@ -137,14 +137,7 @@ public class Deque<Item> implements Iterable<Item> {
         }
     }
 
-    // unit testing (required)
     public static void main(String[] args) {
-        Deque<String> deque = new Deque<String>();
-        deque.addLast("TQSEGFPNMD");
-        deque.removeFirst();
-        deque.addLast("XIWTCRKSSB");
-        deque.addLast("WPRZQGHPMB");
-        deque.removeFirst();
-
+        
     }
 }
