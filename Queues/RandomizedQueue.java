@@ -22,7 +22,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
     }
 
     private void refactor(int i) {
-        System.arraycopy(s, i + 1, s, i, n - i - 1);
+        s[i] = s[n - 1];
         s[n - 1] = null;
     }
 
@@ -91,7 +91,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         }
 
         private void refactorIterator(int i) {
-            System.arraycopy(iterateArray, i + 1, iterateArray, i, arraySize - i);
+            iterateArray[i] = iterateArray[arraySize];
             iterateArray[arraySize] = null;
         }
 
